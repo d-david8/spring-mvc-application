@@ -1,4 +1,4 @@
-package com.ddavid8.demo.model;
+package com.ddavid8.demo.models;
 
 import lombok.Data;
 

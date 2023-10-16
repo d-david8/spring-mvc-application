@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Add Recipe</title>
+</head>
+<body>
+<h1>Add new recipe</h1>
+<h3>
+    <form th:action="@{/recipe/add}" th:object="${recipe}" method="post">
+        <label>Title:</label><br/>
+        <label>
+            <input type="text" th:field="*{title}"/>
+        </label><br/>
+        <label>Description:</label><br/>
+        <label>
+            <input type="text" th:field="*{description}"/>
+        </label><br/>
+        <label>Ingredients: </label><br/>
+        <label>
+            <input type="text" th:field="*{ingredients}"/>
+        </label><br/>
+        <label>Preparation steps: </label> <br/>
+        <label>
+            <input type="text" th:field="*{preparationSteps}"/>
+        </label><br/>
+        <label>Cooking time:</label><br/>
+        <label>
+            <input type="number" th:field="*{cookingTime}"/>
+        </label><br/><br/>
+        <input type="submit" value="Add Recipe"/>
+    </form>
+</h3>
+</body>
+</html>

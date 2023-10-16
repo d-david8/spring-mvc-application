@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.d-david8</groupId>
-    <artifactId>formsubmission</artifactId>
+    <artifactId>spring-mvc-application</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-mvc</name>
     <description>Spring MVC</description>

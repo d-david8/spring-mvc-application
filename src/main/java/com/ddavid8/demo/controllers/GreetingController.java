@@ -1,6 +1,6 @@
 package com.ddavid8.demo.controllers;
 
-import com.ddavid8.demo.model.Greeting;
+import com.ddavid8.demo.models.Greeting;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
