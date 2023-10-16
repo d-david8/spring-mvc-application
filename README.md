@@ -5,4 +5,3 @@
 - Dependencies:
     - `Thymeleaf` for generating HTML pages.
     - `Lombok` for getters and setters.
-- test
